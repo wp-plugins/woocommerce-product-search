@@ -29,13 +29,13 @@ It works just like Google Suggest, but on your website, using your database.
 Once you have installed the plugin, you just need to activate the plugin in order to enable it.
 
 = Configuration =
-WooCommerce Product Search will add a new submenu called "Cart Messages" under "YIT Plugins" menu. Here you are able to configure all the plugin settings.
+WooCommerce Product Search will add a new submenu called "Product Search" under "YIT Plugins" menu. Here you are able to configure all the plugin settings.
 
 == Installation ==
 
 1. Unzip the downloaded zip file.
 2. Upload the plugin folder into the `wp-content/plugins/` directory of your WordPress site.
-3. Activate `WooCommerce Product Search` from Plugins page
+3. Activate `WooCommerce Product Search` from Plugins page.
 
 == Frequently Asked Questions ==
 
@@ -94,7 +94,7 @@ In WooCommerce->Settings->Ajax Search page, you can choose the minumum size of t
 
 == Suggestions ==
 
-If you have suggestions about how to improve YITH WooCommerce Zoom Magnifier, you can [write us](mailto:pluginwoocommerce@gmail.com"Your Inspiration Themes") so we can bundle them into YITH Zoom WooCommerce Magnifier.
+If you have suggestions about how to improve WooCommerce Product Search, you can [write us](mailto:pluginwoocommerce@gmail.com"Your Inspiration Themes") so we can bundle them into YITH Zoom WooCommerce Magnifier.
 
 == Translators ==
 
