@@ -4,7 +4,7 @@ Contributors: woocommerceplugin
 Tags: ajax, search, woocommerce, products, themes, yit, e-commerce, shop, ajax search, instant search, premium, autocomplete, autosuggest, better search, category search, custom search, highlight terms, Live Search, Predictive Search, product search, relevant search, search highlight, search product, suggest, typeahead, WooCommerce Plugin, woocommerce product search, woocommerce search, wordpress ecommerce
 Requires at least: 3.5.1
 Tested up to: 4.1.1
-Stable tag: 1.2.4
+Stable tag: 1.2.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -49,6 +49,9 @@ In WooCommerce->Settings->Ajax Search page, you can choose the minumum size of t
 2. The Ajax Search settings page
 
 == Changelog ==
+
+= 1.2.5 =
+* Fixed: WooCommerce doesn't active issue
 
 = 1.2.4 =
 * Fixed: Minor bugs

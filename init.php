@@ -3,7 +3,7 @@
 * Plugin Name: WooCommerce Product Search
 * Plugin URI: http://yithemes.com/
 * Description: WooCommerce Product Search allows your users to search products in real time.
-* Version: 1.2.4
+* Version: 1.2.5
 * Author: Yithemes
 * Author URI: http://yithemes.com/
 * Text Domain: yit
@@ -30,20 +30,6 @@
     Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 if ( !defined( 'ABSPATH' ) ) { exit; } // Exit if accessed directly
-
-
-if ( !function_exists( 'WC' ) ) {
-    function yith_wcas_install_woocommerce_admin_notice() {
-        ?>
-        <div class="error">
-            <p><?php _e( 'WooCommerce Product Search is enabled but not effective. It requires Woocommerce in order to work.', 'yit' ); ?></p>
-        </div>
-    <?php
-    }
-
-    add_action( 'admin_notices', 'yith_wcas_install_woocommerce_admin_notice' );
-    return;
-}
 
 if ( defined( 'YITH_WCAS_PREMIUM' ) ) {
     function yith_wcas_install_free_admin_notice() {
@@ -108,6 +94,19 @@ if ( ! defined( 'YITH_WCAS_ASSETS_IMAGES_URL' ) ) {
 
 
 function yith_ajax_search_constructor() {
+
+    if ( !function_exists( 'WC' ) ) {
+        function yith_wcas_install_woocommerce_admin_notice() {
+            ?>
+            <div class="error">
+                <p><?php _e( 'WooCommerce Product Search is enabled but not effective. It requires Woocommerce in order to work.', 'yit' ); ?></p>
+            </div>
+        <?php
+        }
+
+        add_action( 'admin_notices', 'yith_wcas_install_woocommerce_admin_notice' );
+        return;
+    }
 
     load_plugin_textdomain( 'yit', false, dirname( plugin_basename( __FILE__ ) ). '/languages/' );
 
