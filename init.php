@@ -4,7 +4,7 @@
 * Plugin URI: http://yithemes.com/
 * Description: WooCommerce Product Search allows your users to search products in real time.
 * Version: 1.2.5
-* Author: Yithemes
+* Author: woocommerceplugin
 * Author URI: http://yithemes.com/
 * Text Domain: yit
 * Domain Path: /languages/
